@@ -6,4 +6,10 @@
 2. Click on the green “Clone or download” button
 3. Select the “Download ZIP” option
 4. Open the Zip folder and use the Open Project from IntelliJ
-5. After opening the project in IntelliJ make the following JDK and Language level
+5. After opening the project in IntelliJ make the following changes to the project
+  5a. Select Project Structure
+  5b. Select Modules from left menu
+  5c. Select the Sources tab from right side panel and expand all folders up to scr
+  5d. Highlight scr and mark it as Sources (the blue folder)
+  5e. Hightlight out and mark it as Excluded (the red folder)
+  5f. Select now the Project tab and point the "Project Compiler Output" to the out folder
