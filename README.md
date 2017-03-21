@@ -7,9 +7,9 @@
 3. Select the “Download ZIP” option
 4. Open the Zip folder and use the Open Project from IntelliJ
 5. After opening the project in IntelliJ make the following changes to the project
-  5a. Select Project Structure
-  5b. Select Modules from left menu
-  5c. Select the Sources tab from right side panel and expand all folders up to scr
-  5d. Highlight scr and mark it as Sources (the blue folder)
-  5e. Hightlight out and mark it as Excluded (the red folder)
-  5f. Select now the Project tab and point the "Project Compiler Output" to the out folder
+ </br> 5a. Select Project Structure
+ </br> 5b. Select Modules from left menu
+ </br> 5c. Select the Sources tab from right side panel and expand all folders up to scr
+ </br> 5d. Highlight scr and mark it as Sources (the blue folder)
+ </br> 5e. Hightlight out and mark it as Excluded (the red folder)
+ </br> 5f. Select now the Project tab and point the "Project Compiler Output" to the out folder
