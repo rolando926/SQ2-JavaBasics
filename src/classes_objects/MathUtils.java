@@ -8,6 +8,7 @@ public class MathUtils {
     int i;
     int y;
 
+
     // A constructor is used to default the values of our fields
     // It is called during instantiation
     MathUtils(int x1, int x2){
@@ -19,7 +20,7 @@ public class MathUtils {
         return i+y;
     }
 
-    public int substraction(){
+    public int subtraction(){
         return i-y;
     }
 

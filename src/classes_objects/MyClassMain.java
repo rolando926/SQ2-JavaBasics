@@ -17,14 +17,14 @@ public class MyClassMain {
         math1.y = 20;
 
         // Do whatever
-        System.out.println("\n****** New Object ******");
+        System.out.println("\n****** New Object (math1) ******");
         System.out.println("i:"+math1.i+"  y:"+math1.y);
         System.out.println("Addition: "+math1.addition());
-        System.out.println("Substraction: "+math1.substraction());
+        System.out.println("Subtraction: "+math1.subtraction());
         System.out.println("Multiplication: "+math1.mult());
         System.out.println("Division: "+math1.division());
 
-        System.out.println("\n****** New Object ******");
+        System.out.println("\n****** New Object (math2) ******");
         System.out.println(">>>>>> I can create as many objects as I want and all will have a nbew fresh set of data.");
         System.out.println("i:"+math2.i+"  y:"+math2.y);
         System.out.println("Addition: "+math2.addition());
