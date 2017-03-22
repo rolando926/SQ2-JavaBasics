@@ -21,8 +21,9 @@ public class MainTwoObject {
 
         for (TwoObjects tempObject:objects) {
             tempObject.value1 = lastValue;
+            System.out.println("object"+(counter)+".value1="+tempObject.value1);
             lastValue = lastValue + 100;
-            System.out.println("object"+(counter++)+".value1="+tempObject.value1);
+            counter++;
         }
 
         //System.out.println("object1.value1="+object1.value1);
