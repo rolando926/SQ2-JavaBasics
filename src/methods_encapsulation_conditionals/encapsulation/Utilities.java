@@ -26,5 +26,6 @@ public class Utilities {
 
     public void printMessage(){
         System.out.println("This is "+strTeam+"!");
+        return;
     }
 }

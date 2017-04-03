@@ -5,10 +5,10 @@ package methods_encapsulation_conditionals.methods;
  */
 public class Shirt {
     // All versions
-    String description;
-    char colorCode;
-    double price;
-    static int counter = 1;
+    public String description;
+    public char colorCode;
+    public double price;
+    public static int counter = 1;
 
     //V1.3 and V1.4
     Shirt(String value1, char value2, double value3){
