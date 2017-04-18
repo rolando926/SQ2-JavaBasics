@@ -18,7 +18,7 @@ public class ListInterface {
         //for (String temp:myList) {System.out.println(temp);}
 
         // 3. Convert strArray into ArrayList
-        ArrayList<String> myArrayList = new ArrayList<>(Arrays.asList(strArray));
+        ArrayList<String> myArrayList = new ArrayList<>(myList);
         //for (String temp: myArrayList) {System.out.println(temp);}
         //System.out.println(myArrayList); // print out all values as array
 
@@ -33,8 +33,8 @@ public class ListInterface {
 
         // 6. Remove if length less than 5 characters
         // NOTE: Only works from ArrayList to List convertion
-        //myListFromArrayList.removeIf(str -> str.length() < 5); // Predicate Operator
-        //for (String temp: myListFromArrayList) {System.out.println(temp);}
+        // myListFromArrayList.removeIf(str -> str.length() < 5); // Predicate Operator
+        // for (String temp: myListFromArrayList) {System.out.println(temp);}
 
 
         // 7. Replace name with upper case if length >= 5 using strArray
@@ -46,15 +46,26 @@ public class ListInterface {
             System.out.println(strArray[i]);
         }*/
 
+        // 7a. Same thing as #7 with while loop
+        /*
+        int i = 0;
+        while(i < strArray.length){
+            if(strArray[i].length() >= 5){
+                strArray[i] = strArray[i].toUpperCase();
+            }
+            System.out.println(strArray[i]);
+            i++;
+        }*/
+
         // 8. Replace name with upper case if length >= 5 using ArrayList
         // NOTE: .add = inserts while .set = update
-        int counter = 0;
+        /*int counter = 0;
         for (String temp: myArrayList) {
             if(temp.length() >= 5){
                 myArrayList.set(counter, temp.toUpperCase());
             }
             counter++;
         }
-        System.out.println(myArrayList);
+        System.out.println(myArrayList);*/
     }
 }
