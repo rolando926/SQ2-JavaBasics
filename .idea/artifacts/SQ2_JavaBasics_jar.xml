@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SQ2-JavaBasics:jar">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="archive" name="SQ2-JavaBasics.jar">
+      <element id="module-output" name="SQ2-JavaBasics" />
+    </root>
+  </artifact>
+</component>
